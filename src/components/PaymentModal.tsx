@@ -31,7 +31,7 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ onClose }) => {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Bill Amount
+              Bill Amount Total
             </label>
             <div className="text-3xl font-bold text-gray-900 mb-4">
               ${billAmount}
